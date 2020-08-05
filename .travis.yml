@@ -9,8 +9,22 @@ cache:
 
 node_js: stable
 
+before_install:
+
 install:
   - npm install -D
 
+before_script:
+
 scripts: 
   - npm run unit_rate
+
+after_failure:
+
+after_success:
+
+before_deploy:
+
+after_deploy:
+
+after_script:
